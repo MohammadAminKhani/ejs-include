@@ -1,7 +1,7 @@
-# ejs-no1
-98.10.29 app.set | from tinyProjects
+# ejs-no2
+98.10.30 include syntax | from tinyProjects
 
-[This is final video!](https://www.aparat.com/v/pkLx9)
+[This is final video!](https://www.aparat.com/v/ezR9a)
 
 ## packages
 ```
@@ -17,10 +17,7 @@ app.set('views','app/views')
 res.send('<h2>Hello Dadashi!!</h2>')
 res.render('index1')
 ```
-
-## more info
-ejs = embeddable java script
-
-there is another middlewares can work the same as ejs.
-
-Now js like php can be in html, dadashi! :)
+## module.exports > ejs > include
+```
+<%- include('head.ejs') %>
+```
